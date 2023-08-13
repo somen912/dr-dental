@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Dental</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+</head>
+
+<body>
+
+    <!-- navigation section -->
+    <section class="navigation section">
+        <div class="container header-top">
+            <div class="contact-info">
+                <a href="#"><i class="fa-solid fa-envelope"></i> test@test.com</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> +91-9999555512</a>
+            </div>
+
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-expand-lg container custom-nav bg-white">
+            <div class="container-fluid bg-white">
+                <a class="navbar-brand bg-white" href="#"><i class="fa-solid fa-tooth bg-white"></i> Dr. Dental</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active bg-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link bg-white" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bg-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu bg-white">
+                                <li><a class="dropdown-item bg-white" href="#service">Dental Implant</a></li>
+                                <li><a class="dropdown-item bg-white" href="#service">Root Canal Treatment</a></li>
+                                <li><a class="dropdown-item bg-white" href="#service">Teeth Whitening</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-white" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item bg-white">
+                            <a class="btn custom-btn" href="#">Book Appointment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- hero section -->
+    <section class="container hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <p>Welcome to Dr. Dental Clinic</p>
+                <h1><span>Bringing Smiles to Life</span><br>Your Trusted Dentist Clinic</h1>
+                <a class="btn custom-btn" href="#">Book Appointment</a>
+            </div>
+            <div class="hero-highlight">
+                <i class="fa-solid fa-face-smile bg-white"></i> Helped 100+ Patients
+            </div>
+            <div class="hero-img">
+                <img src="assets/img/dentist-removebg-preview.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about us section -->
+
+    <section id="about" class="about-us container">
+        <div class="about-image">
+            <img src="assets/img/about-dentist.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <h3>Decided to Provide the Best Treatment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni maxime dicta id deserunt aperiam
+                facere assumenda ducimus veritatis soluta!</p>
+            <div class="about-features">
+                <div class="features-col">
+                    <i class="fa-solid fa-circle-check"></i> Care for Customer <br>
+                    <i class="fa-solid fa-circle-check"></i> Respect and Care <br>
+                    <i class="fa-solid fa-circle-check"></i> Trust Mutually <br>
+                </div>
+                <div class="features-col">
+                    <i class="fa-solid fa-circle-check"></i> Always Learning <br>
+                    <i class="fa-solid fa-circle-check"></i> Accountability <br>
+                    <i class="fa-solid fa-circle-check"></i> Patient First Approach <br>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Treatment plan section -->
+    <section id="service" class="container treatment-plan ">
+        <div class="plan-content">
+            <h2>Dental Checkup Plan</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quod magni delectus tempore! Officiis, quasi
+                assumenda?</p>
+        </div>
+
+        <div>
+            <div class="custom-tab">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Dental Implant</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Root Canal Treatment</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Teeth Whitening</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div class="container treatment-option">
+
+                        <div class="treatment-content">
+                            <i class="fa-solid fa-tooth"></i>
+                            <h3>Dental Implant Treatment</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni maxime dicta id
+                                deserunt aperiam
+                                facere assumenda ducimus veritatis soluta!</p>
+                            <div class="treatment-features">
+                                <div class="features-col">
+                                    <i class="fa-solid fa-circle-check"></i> Care for Customer <br>
+                                    <i class="fa-solid fa-circle-check"></i> Respect and Care <br>
+                                    <i class="fa-solid fa-circle-check"></i> Trust Mutually <br>
+                                </div>
+                                <a class="btn custom-btn" href="#">Book Appointment</a>
+                            </div>
+                        </div>
+                        <div class="treatment-image">
+                            <img src="assets/img/dental-implant.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    tabindex="0">
+                    <div class="container treatment-option">
+                        <div class="treatment-content">
+                            <i class="fa-solid fa-tooth"></i>
+                            <h3>Root Canal Treatment</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni maxime dicta id
+                                deserunt aperiam
+                                facere assumenda ducimus veritatis soluta!</p>
+                            <div class="treatment-features">
+                                <div class="features-col">
+                                    <i class="fa-solid fa-circle-check"></i> Care for Customer <br>
+                                    <i class="fa-solid fa-circle-check"></i> Respect and Care <br>
+                                    <i class="fa-solid fa-circle-check"></i> Trust Mutually <br>
+                                </div>
+                                <a class="btn custom-btn" href="#">Book Appointment</a>
+                            </div>
+                        </div>
+                        <div class="treatment-image">
+                            <img src="assets/img/dental-root-canal_1308-13812.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                    tabindex="0">
+                    <div class="container treatment-option">
+                        <div class="treatment-content">
+                            <i class="fa-solid fa-tooth"></i>
+                            <h3>Teeth Whitening</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni maxime dicta id
+                                deserunt aperiam
+                                facere assumenda ducimus veritatis soluta!</p>
+                            <div class="treatment-features">
+                                <div class="features-col">
+                                    <i class="fa-solid fa-circle-check"></i> Care for Customer <br>
+                                    <i class="fa-solid fa-circle-check"></i> Respect and Care <br>
+                                    <i class="fa-solid fa-circle-check"></i> Trust Mutually <br>
+                                </div>
+                                <a class="btn custom-btn" href="#">Book Appointment</a>
+                            </div>
+                        </div>
+                        <div class="treatment-image">
+                            <img src="assets/img/perfect-smile-with-white-teeth-closeup_144627-29225.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- doctors section -->
+
+    <section class="doctor-section container">
+        <h2>Our Experts</h2>
+        <div class="doctor-list">
+            <div class="doctor-profile">
+                <div class="doc-img">
+                    <img src="assets/img/dentist-man-holding-tools-isolated-white-wall-laughing_1368-92368.png" alt="">
+                </div>
+                <div class="doc-info">
+                    <h4>Dr. Smith</h4>
+                    <h5>Implantologist <span>10 years experience</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consequuntur ad eaque ullam nam
+                        quam!</p>
+                </div>
+            </div>
+            <div class="doctor-profile">
+                <div class="doc-img">
+                    <img src="assets/img/stomatologist-doctor-explaining-proper-dental-hygiene-patient-holding-sample-human-jaw_158595-7678.png"
+                        alt="">
+                </div>
+                <div class="doc-info">
+                    <h4>Dr. Philips</h4>
+                    <h5>Implantologist <span>18 years experience</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consequuntur ad eaque ullam nam
+                        quam!</p>
+                </div>
+            </div>
+            <div class="doctor-profile">
+                <div class="doc-img">
+                    <img src="assets/img/dentist-doing-check-up-patient_23-2149206262.jpg" alt="">
+                </div>
+                <div class="doc-info">
+                    <h4>Dr. Danny</h4>
+                    <h5>Implantologist <span>15 years experience</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consequuntur ad eaque ullam nam
+                        quam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="testimonial-section container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi impedit fugit?
+                                Recusandae quos omnis sunt doloremque quam adipisci totam?</q>
+                            <div class="client-profile">
+                                <i class="fa-solid fa-user"></i> Lorem Ipsum
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi impedit fugit?
+                                Recusandae quos omnis sunt doloremque quam adipisci totam?</q>
+                            <div class="client-profile">
+                                <i class="fa-solid fa-user"></i> Lorem Ipsum
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi impedit fugit?
+                                Recusandae quos omnis sunt doloremque quam adipisci totam?</q>
+                            <div class="client-profile">
+                                <i class="fa-solid fa-user"></i> Lorem Ipsum
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Blog Section -->
+
+    <div id="blog" class="blog-section container">
+        <h2>Recent Blog Post</h2>
+
+        <div class="blog-container">
+            <div class="blog">
+                <img src="assets/img/woman-patient-dentist_1303-9365.jpg" alt="">
+                <div class="blog-header">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+                    <a class="btn" href="#">Read More</a>
+                </div>
+            </div>
+
+            <div id="blog" class="blog">
+                <img src="assets/img/little-beautiful-girl-dentist-smiling_158595-7736.jpg" alt="">
+                <div class="blog-header">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+                    <a class="btn" href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog">
+                <img src="assets/img/dentist-examining-patient-s-teeth_1098-568.jpg" alt="">
+                <div class="blog-header">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+                    <a class="btn" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <footer class="footer-section container">
+
+        <div class="container footer-main">
+            <div class="footer-container1">
+                <a class="footer-brand navbar-brand" href="#"><i class="fa-solid fa-tooth bg-white"></i> Dr. Dental</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiis?</p>
+                <a href="#"><i class="fa-solid fa-envelope"></i> test@etest.com</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> +91-9999955555</a>
+            </div>
+
+            <div class="footer-container2">
+                <div class="page1-section">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="page2-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#service">Dental Implant</a></li>
+                        <li><a href="#service">Root Canal Treatment</a></li>
+                        <li><a href="#service">Teeth Whitening</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-container3">
+                <h4>Trust us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, numquam!</p>
+                <a href="https://github.com/somen912"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/somen-das-6a933115a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+        </div>
+
+        <hr>
+
+        &#169; somen das 2023
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

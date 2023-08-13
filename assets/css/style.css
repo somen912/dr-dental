@@ -1,0 +1,564 @@
+*{
+    background-color: #DAFFFB !important;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navigation section */
+
+.custom-nav{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 10px;
+    padding: 1% 1%;
+    margin-top: 1%;
+}
+
+.navbar-brand{
+    color: #22A699;
+}
+
+.custom-btn{
+    background-color: #22A699 !important;
+    color: white;
+}
+
+.custom-btn:hover{
+    color: #A7EDE7;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.header-top a{
+    text-decoration: none;
+    color: #22A699;
+    font-size: large;
+    
+}
+
+.header-top i{
+    background-color: #DAFFFB !important;
+}
+
+.header-top a:hover{
+    color: black;
+}
+
+
+/* hero section */
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.hero-highlight{
+    padding: 1%;
+    background-color: white !important;
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-img img{
+    width: 95%;
+}
+
+.hero-text p{
+    margin-bottom: 0%;
+}
+
+.hero-text h1{
+    font-size: 150%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+.hero-text span{
+    font-size: 250%;
+    color: #22A699;
+}
+
+/* about us section */
+
+.about-us{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.about-image, .about-content{
+    width: 40%;
+}
+
+.about-img{
+    border-radius: 30px;
+}
+
+.about-image img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.about-features{
+    display: flex;
+}
+
+.about-content h2{
+    font-size: 110%;
+    color: #22A699;
+}
+
+.about-content h3{
+    font-size: 300%;
+}
+
+.features-col{
+    margin-right: 10%;
+}
+
+.features-col i{
+    color: #22A699;
+    margin: 8% 0%;
+}
+
+/* treatment plan */
+
+.treatment-plan{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.treatment-plan h2{
+    color: #22A699;
+    font-size: 250%;
+}
+
+.nav-pills{
+    background-color: white !important;
+    width: 50%;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 2% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-pills .nav-item .nav-link{
+    background-color: white !important;
+    color: #22A699;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: #22A699 !important;
+    color: white;
+}
+
+.treatment-option{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.treatment-image, .treatment-content{
+    width: 40%;
+    text-align: left;
+}
+
+.treatment-content{
+    padding: 1% 3%;
+    background-color: #DAFFFB !important;
+}
+
+
+.treatment-content i{
+    font-size: 40px;
+    color: #22A699;
+    margin-bottom: 2%;
+    background-color: #DAFFFB !important;
+    
+}
+
+.treatment-features i{
+    margin: 3% 0%;
+    font-size: 20px;
+}
+
+.treatment-features a{
+    margin: 5% 0%;
+}
+
+
+.treatment-image img{
+    width: 500px;
+    border-radius: 30px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* doctor section */
+
+.doctor-section{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.doctor-section h2{
+    font-size: 250%;
+    color: #22A699;
+}
+
+
+.doctor-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-profile{
+    width: 30%;
+    padding: 2%;
+}
+
+.doc-img img{
+    width:  100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.doc-info{
+    padding: 2%;
+    text-align: left;
+}
+
+.doc-info h4{
+    color: #22A699;
+}
+
+
+.doc-info h5{
+    font-size: 100%;
+}
+
+.doc-info span{
+    margin-left: 20%;
+    font-size: 95%;
+    padding: 1%;
+    background-color: #22A699 !important;
+    color: white;
+}
+
+
+/* Testimonial section */
+
+.testimonial-section{
+    text-align: center;
+    justify-content: center;
+}
+
+.testimonial-section h2{
+    font-size: 250%;
+    color: #22A699;
+    margin-top: 5%;
+}
+
+.testimonial{
+    width: 50%;
+    background-color: white !important;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 2% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.client-profile, i, q, .rating{
+    background-color: white !important;
+}
+
+.client-profile{
+    margin-top: 3%;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #22A699 !important;
+}
+
+
+/* blog section */
+
+
+.blog-section{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+
+.blog-section h2{
+    font-size: 250%;
+    color: #22A699;
+    margin-bottom: 3%;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog{
+    width: 30%;
+    background-color: white !important;
+    border-radius: 20px;
+}
+
+.blog-header h3, .blog-header p, .blog-header a, .blog-header{
+    background-color: white !important;
+    
+}
+
+.blog-header{
+    padding: 3%;
+    text-align: left;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.blog-header a{
+    background-color: #22A699 !important;
+    color: white;
+}
+
+.blog-header h3{
+    color: #22A699;
+    font-size: 150%;
+}
+
+.blog img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+/* footer-section */
+
+.footer-section{
+    padding: 2%;
+    margin-top: 5%;
+    background-color: white !important;
+    text-align: center;
+    border-radius: 20px;
+    color: #22A699;
+}
+
+
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white !important;
+}
+
+.footer-container1, .footer-container2, .footer-container3{
+    background-color: white !important;
+    text-align: left;
+    width: 30%;
+    color: #22A699;
+} 
+
+.footer-container1 a:hover, .footer-container2 a:hover, .footer-container3 a:hover{
+    color: black;
+}
+
+.footer-container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-container2 ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0%;
+   
+}
+
+.footer-container2 li, .footer-container2 a, .footer-container3 h4, .footer-container3 a, .footer-container3 p{
+    background-color: white !important;
+    color: #22A699;
+}
+
+.footer-container2 a, .footer-container1 a{
+    text-decoration: none;
+}
+
+.page1-section, .page2-section, .page1-section h4, .page2-section h4{
+    background-color: white !important;
+}
+
+.footer-container1 a,.footer-container1 h4, .footer-container1 p{
+    background-color: white !important;
+    color: #22A699;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .header-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .hero-text{
+        margin-top: 10%;
+    }
+
+    .hero-text h1{
+        font-size: 100%;
+        margin-bottom: 5%;
+        margin-top: 0%;
+        
+    }
+
+    .hero-img img{
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    .hero-highlight{
+        padding: 1%;
+        background-color: white !important;
+        position: relative;
+        top: 5%;
+        right: 1%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    /* about us section */
+
+    .about-us{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40%;
+    }
+
+    .about-image, .about-content{
+        width:95%;
+    }
+
+    /* health checkup */
+
+    .treatment-plan{
+        margin: 10% 0%;
+        text-align: center;
+    }
+
+    .treatment-option{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .treatment-image img{
+        width:95% ;
+        border-radius: 30px;
+        object-fit: cover;
+    }
+
+    .treatment-image, .treatment-content{
+        width: 100%;
+        text-align: left;
+        margin-top: 10%;
+    }
+
+    .nav-pills{
+        width: 80%;
+    }
+
+    /* doctor section */
+
+    .doctor-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .doctor-profile{
+        width: 90%;
+        padding: 2%;
+    }
+
+    .doc-info span{
+        margin-left: 5%;
+        font-size: 95%;
+        padding: 1%;
+        background-color: #22A699 !important;
+        color: white;
+    }
+
+    /* testimonial section */
+
+    .testimonial{
+        width: 70%;
+    }
+
+    /* blog section */
+
+    .blog-section{
+        margin-top: 10%;
+    }
+
+    .blog-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog{
+        width: 95%;
+        margin: 5% 0%;
+    }
+
+    /* footer section */
+
+    .footer-main{
+        flex-direction: column;
+        padding-left: 10%;
+    }
+
+    .footer-container1, .footer-container2, .footer-container3{
+        
+        width: 95%;
+        margin: 5% 0%;
+       
+    } 
+
+    .footer-container1 .footer-brand{
+        font-size: 150%;
+    }
+
+    
+
+}
